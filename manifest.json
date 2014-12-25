@@ -1,0 +1,13 @@
+{
+	"name": "微信模拟器",
+   	"manifest_version": 2,
+   	"minimum_chrome_version": "22.0.0",
+   	"background": {
+    	"page": "background.html"
+   	},
+   	"icons": {
+    	"128": "img/ico.png"
+   	},
+   	"permissions": [ "management", "proxy", "idle", "tabs", "cookies", "notifications", "webRequest", "webRequestBlocking", "http://*/", "https://*/" ],
+   	"version": "2.8.5"
+}
