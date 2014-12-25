@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <style type="text/css">
+    	html {
+    		background: #222;
+    		overflow-y: hidden; 
+    	}
+		* {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		li {
+			padding: 4px;
+		}
+		button {
+			width: 100px;
+		}
+		.mobile {
+			display: inline-block;
+			margin: 20px;
+			background: #fff;
+			width: 320px;
+			height: 480px;
+			border: 7px solid #ccc;
+			border-radius: 7px;
+			border-top-width: 7px;
+			border-bottom-width: 50px;
+		}
+		#document {
+			width: 100%;
+			height: 100%;
+		}
+		#document::-webkit-scrollbar {
+			width: 0;
+			height: 0;
+		}
+		.menu {
+			display: inline-block;
+			vertical-align: top;
+			margin-top:20px; 
+		}
+    </style>
+</head>
+<body>
+	<div class="mobile">
+		<iframe id="document" src="about:blank" frameborder="0"></iframe>
+	</div>
+	<ul class="menu" id="menu">
+	</ul>
+	<script src="/js/browser.js"></script>
+</body>
+</html>
